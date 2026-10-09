@@ -10,7 +10,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        // add more pages here, e.g. about: resolve(__dirname, "about.html"),
+        privacy: resolve(__dirname, "privacy.html"),
+        terms: resolve(__dirname, "terms.html"),
       },
     },
   },
